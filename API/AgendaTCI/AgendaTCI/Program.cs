@@ -1,15 +1,44 @@
-var builder = WebApplication.CreateBuilder(args);
+using AgendaTCI.Applications.Services;
+using AgendaTCI.Contexts;
+using AgendaTCI.Interfaces;
+using AgendaTCI.Repositories;
+using DotNetEnv;
+using Microsoft.EntityFrameworkCore;
 
-// Add services to the container.
+Env.Load();
+
+WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+
+string? connectionString = Environment.GetEnvironmentVariable("CONNECTION_STRING");
+
+if (string.IsNullOrWhiteSpace(connectionString))
+    throw new InvalidOperationException("A variável CONNECTION_STRING não foi definida no .env.");
+
+builder.Services.AddDbContext<TCIContext>(
+    options => options.UseSqlServer(connectionString));
+
+builder.Services.AddScoped<IAgendaRepository, AgendaRepository>();
+builder.Services.AddScoped<AgendaService>();
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var app = builder.Build();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CorsPolicy", policy =>
+    {
+        policy
+            .WithOrigins("http://localhost:3000")
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
 
-// Configure the HTTP request pipeline.
+WebApplication app = builder.Build();
+
+app.UseCors("CorsPolicy");
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -17,7 +46,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
 
 app.MapControllers();

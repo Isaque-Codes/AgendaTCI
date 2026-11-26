@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\Contexts\\TCIContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AgendaTCI\\Contexts\\TCIContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACFF0365-16E9-DCFC-C272-8F88F669130A}|AgendaTCI\\AgendaTCI.csproj|c:\\users\\47644245847\\desktop\\agendatci\\api\\agendatci\\agendatci\\applications\\services\\agendaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFF0365-16E9-DCFC-C272-8F88F669130A}|AgendaTCI\\AgendaTCI.csproj|solutionrelative:agendatci\\applications\\services\\agendaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFF0365-16E9-DCFC-C272-8F88F669130A}|AgendaTCI\\AgendaTCI.csproj|c:\\users\\47644245847\\desktop\\agendatci\\api\\agendatci\\agendatci\\.env.example||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{ACFF0365-16E9-DCFC-C272-8F88F669130A}|AgendaTCI\\AgendaTCI.csproj|solutionrelative:agendatci\\.env.example||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFF0365-16E9-DCFC-C272-8F88F669130A}|AgendaTCI\\AgendaTCI.csproj|c:\\users\\47644245847\\desktop\\agendatci\\api\\agendatci\\agendatci\\applications\\conversoes\\conversaodto\\conversaoagendadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFF0365-16E9-DCFC-C272-8F88F669130A}|AgendaTCI\\AgendaTCI.csproj|solutionrelative:agendatci\\applications\\conversoes\\conversaodto\\conversaoagendadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFF0365-16E9-DCFC-C272-8F88F669130A}|AgendaTCI\\AgendaTCI.csproj|c:\\users\\47644245847\\desktop\\agendatci\\api\\agendatci\\agendatci\\dtos\\agendadto\\leragendadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFF0365-16E9-DCFC-C272-8F88F669130A}|AgendaTCI\\AgendaTCI.csproj|solutionrelative:agendatci\\dtos\\agendadto\\leragendadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFF0365-16E9-DCFC-C272-8F88F669130A}|AgendaTCI\\AgendaTCI.csproj|c:\\users\\47644245847\\desktop\\agendatci\\api\\agendatci\\agendatci\\repositories\\agendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFF0365-16E9-DCFC-C272-8F88F669130A}|AgendaTCI\\AgendaTCI.csproj|solutionrelative:agendatci\\repositories\\agendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFF0365-16E9-DCFC-C272-8F88F669130A}|AgendaTCI\\AgendaTCI.csproj|c:\\users\\47644245847\\desktop\\agendatci\\api\\agendatci\\agendatci\\applications\\validacoes\\validarcpf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFF0365-16E9-DCFC-C272-8F88F669130A}|AgendaTCI\\AgendaTCI.csproj|solutionrelative:agendatci\\applications\\validacoes\\validarcpf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFF0365-16E9-DCFC-C272-8F88F669130A}|AgendaTCI\\AgendaTCI.csproj|c:\\users\\47644245847\\desktop\\agendatci\\api\\agendatci\\agendatci\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFF0365-16E9-DCFC-C272-8F88F669130A}|AgendaTCI\\AgendaTCI.csproj|solutionrelative:agendatci\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFF0365-16E9-DCFC-C272-8F88F669130A}|AgendaTCI\\AgendaTCI.csproj|c:\\users\\47644245847\\desktop\\agendatci\\api\\agendatci\\agendatci\\controllers\\agendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFF0365-16E9-DCFC-C272-8F88F669130A}|AgendaTCI\\AgendaTCI.csproj|solutionrelative:agendatci\\controllers\\agendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFF0365-16E9-DCFC-C272-8F88F669130A}|AgendaTCI\\AgendaTCI.csproj|c:\\users\\47644245847\\desktop\\agendatci\\api\\agendatci\\agendatci\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{ACFF0365-16E9-DCFC-C272-8F88F669130A}|AgendaTCI\\AgendaTCI.csproj|solutionrelative:agendatci\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFF0365-16E9-DCFC-C272-8F88F669130A}|AgendaTCI\\AgendaTCI.csproj|c:\\users\\47644245847\\desktop\\agendatci\\api\\agendatci\\agendatci\\interfaces\\iagendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFF0365-16E9-DCFC-C272-8F88F669130A}|AgendaTCI\\AgendaTCI.csproj|solutionrelative:agendatci\\interfaces\\iagendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +50,129 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TCIContext.cs",
-              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\Contexts\\TCIContext.cs",
-              "RelativeDocumentMoniker": "AgendaTCI\\Contexts\\TCIContext.cs",
-              "ToolTip": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\Contexts\\TCIContext.cs",
-              "RelativeToolTip": "AgendaTCI\\Contexts\\TCIContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ConversaoAgendaDto.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\Applications\\Conversoes\\ConversaoDTO\\ConversaoAgendaDto.cs",
+              "RelativeDocumentMoniker": "AgendaTCI\\Applications\\Conversoes\\ConversaoDTO\\ConversaoAgendaDto.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\Applications\\Conversoes\\ConversaoDTO\\ConversaoAgendaDto.cs",
+              "RelativeToolTip": "AgendaTCI\\Applications\\Conversoes\\ConversaoDTO\\ConversaoAgendaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-26T13:41:06.356Z",
+              "WhenOpened": "2026-11-26T20:27:01.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LerAgendaDto.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\DTOs\\AgendaDto\\LerAgendaDto.cs",
+              "RelativeDocumentMoniker": "AgendaTCI\\DTOs\\AgendaDto\\LerAgendaDto.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\DTOs\\AgendaDto\\LerAgendaDto.cs",
+              "RelativeToolTip": "AgendaTCI\\DTOs\\AgendaDto\\LerAgendaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T20:26:09.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ValidarCPF.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\Applications\\Validacoes\\ValidarCPF.cs",
+              "RelativeDocumentMoniker": "AgendaTCI\\Applications\\Validacoes\\ValidarCPF.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\Applications\\Validacoes\\ValidarCPF.cs",
+              "RelativeToolTip": "AgendaTCI\\Applications\\Validacoes\\ValidarCPF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T19:53:21.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\.env",
+              "RelativeDocumentMoniker": "AgendaTCI\\.env",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\.env",
+              "RelativeToolTip": "AgendaTCI\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-26T19:34:47.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".env.example",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\.env.example",
+              "RelativeDocumentMoniker": "AgendaTCI\\.env.example",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\.env.example",
+              "RelativeToolTip": "AgendaTCI\\.env.example",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-26T19:36:01.375Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\Program.cs",
+              "RelativeDocumentMoniker": "AgendaTCI\\Program.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\Program.cs",
+              "RelativeToolTip": "AgendaTCI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T19:10:34.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AgendaController.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\Controllers\\AgendaController.cs",
+              "RelativeDocumentMoniker": "AgendaTCI\\Controllers\\AgendaController.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\Controllers\\AgendaController.cs",
+              "RelativeToolTip": "AgendaTCI\\Controllers\\AgendaController.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAkwH8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T18:51:14.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AgendaService.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\Applications\\Services\\AgendaService.cs",
+              "RelativeDocumentMoniker": "AgendaTCI\\Applications\\Services\\AgendaService.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\Applications\\Services\\AgendaService.cs",
+              "RelativeToolTip": "AgendaTCI\\Applications\\Services\\AgendaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T16:42:23.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AgendaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\Repositories\\AgendaRepository.cs",
+              "RelativeDocumentMoniker": "AgendaTCI\\Repositories\\AgendaRepository.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\Repositories\\AgendaRepository.cs",
+              "RelativeToolTip": "AgendaTCI\\Repositories\\AgendaRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T15:28:35.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAgendaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\Interfaces\\IAgendaRepository.cs",
+              "RelativeDocumentMoniker": "AgendaTCI\\Interfaces\\IAgendaRepository.cs",
+              "ToolTip": "C:\\Users\\47644245847\\Desktop\\AgendaTCI\\API\\AgendaTCI\\AgendaTCI\\Interfaces\\IAgendaRepository.cs",
+              "RelativeToolTip": "AgendaTCI\\Interfaces\\IAgendaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T15:08:35.486Z"
             }
           ]
         }

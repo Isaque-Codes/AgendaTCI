@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgendaTCI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b949385b40caf2907cc825f5232939307aeff9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b10d37345dc40728d532856861535f9555e63b35")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgendaTCI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgendaTCI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
