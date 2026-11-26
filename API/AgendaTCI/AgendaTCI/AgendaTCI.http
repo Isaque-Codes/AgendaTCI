@@ -1,0 +1,6 @@
+@AgendaTCI_HostAddress = http://localhost:5081
+
+GET {{AgendaTCI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
