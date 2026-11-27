@@ -1,0 +1,53 @@
+.header {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e8ebef;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    
+}
+
+.logo_texto {
+    margin-right: 12px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nome_sistema {
+    font-size: 20px;
+}
+
+.estado_agenda {
+    margin-left: auto;
+    color: #657182;
+    font-size: 13px;
+}
+
+.pagina_gerenciamento {
+    width: 80%;
+    margin: 0 auto;
+    padding: 23px 0 48px;
+}
+
+.cabecalho_pagina {
+    margin-bottom: 17px;
+}
+
+.sobretitulo {
+    display: block;
+    margin-bottom: 4px;
+    color: #6d7887;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.logo_empresa {
+    width: 180px;
+    height: 72px;
+    object-fit: contain;
+}

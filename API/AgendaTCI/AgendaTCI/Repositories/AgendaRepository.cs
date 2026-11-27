@@ -29,32 +29,12 @@ namespace AgendaTCI.Repositories
                 .FirstOrDefaultAsync(a => a.PacienteID == id);
         }
 
-        public Task<Agenda?> BuscarPorNomeAsync(string nome)
+        public Task<List<Agenda>> BuscarPorNomeAsync(string nome)
         {
             return _context.Agenda.AsNoTracking()
-                .OrderByDescending(a => a.DataCadastro)
-                .FirstOrDefaultAsync(a => a.Nome == nome);
-        }
-
-        public Task<Agenda?> BuscarPorEmailAsync(string email)
-        {
-            return _context.Agenda.AsNoTracking()
-                .OrderByDescending(a => a.DataCadastro)
-                .FirstOrDefaultAsync(a => a.Email == email);
-        }
-
-        public Task<Agenda?> BuscarPorCPFAsync(string cpf)
-        {
-            return _context.Agenda.AsNoTracking()
-                .OrderByDescending(a => a.DataCadastro)
-                .FirstOrDefaultAsync(a => a.CPF == cpf);
-        }
-
-        public Task<Agenda?> BuscarPorTelefoneAsync(string telefone)
-        {
-            return _context.Agenda.AsNoTracking()
-                .OrderByDescending(a => a.DataCadastro)
-                .FirstOrDefaultAsync(a => a.Telefone == telefone);
+                .Where(a => a.Nome.StartsWith(nome))
+                .OrderBy(a => a.Nome)
+                .ToListAsync();
         }
 
         public Task<bool> EmailExisteAsync(string email)

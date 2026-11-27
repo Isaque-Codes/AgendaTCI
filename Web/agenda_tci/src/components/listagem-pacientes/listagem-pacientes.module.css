@@ -1,0 +1,281 @@
+.painel_pacientes {
+    padding: 18px 20px 20px;
+    border: 1px solid #dfe4ea;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 12px 34px rgba(32, 48, 67, 0.06);
+}
+
+.barra_ferramentas,
+.modal_cabecalho,
+.rodape_tabela {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.barra_ferramentas {
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.botao_primario,
+.botao_secundario,
+.botao_icone,
+.botao_fechar,
+.campo_busca button,
+.paginacao button {
+    cursor: pointer;
+}
+
+.botao_primario,
+.botao_secundario {
+    min-height: 40px;
+    padding: 9px 16px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.botao_primario {
+    background-color: #347db8;
+    color: #ffffff;
+}
+
+.botao_secundario {
+    border-color: #dbe1e8;
+    background-color: #ffffff;
+    color: #354152;
+}
+
+.icone_adicionar {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.campo_busca {
+    display: flex;
+    width: 390px;
+}
+
+.campo_busca input {
+    width: 350px;
+    height: 40px;
+    padding: 0 13px;
+    border: 1px solid #d4dae1;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+}
+
+.campo_busca button {
+    width: 40px;
+    border: 1px solid #d4dae1;
+    border-radius: 0 6px 6px 0;
+    background-color: #ffffff;
+    color: #647181;
+    font-size: 22px;
+}
+
+.tabela_cartao {
+    overflow: hidden;
+    border: 1px solid #dfe4ea;
+    border-radius: 7px;
+    background-color: #ffffff;
+}
+
+.tabela_titulo {
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 13px;
+    border-bottom: 1px solid #dfe4ea;
+}
+
+.tabela_titulo h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contador_registros {
+    padding: 3px 9px;
+    border-radius: 10px;
+    background-color: #f0f4f8;
+    color: #637184;
+    font-size: 12px;
+}
+
+.tabela_pacientes {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.tabela_pacientes th,
+.tabela_pacientes td {
+    padding: 12px 13px;
+    border-bottom: 1px solid #e3e7ec;
+}
+
+.tabela_pacientes th {
+    height: 43px;
+    background-color: #f3f5f8;
+    color: #303a47;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.tabela_pacientes td {
+    height: 51px;
+    color: #303945;
+    font-size: 13px;
+}
+
+.nome_paciente {
+    color: #1f2c3a;
+    font-weight: 600;
+}
+
+.acoes_paciente {
+    text-align: center;
+}
+
+.botao_icone {
+    width: 34px;
+    height: 34px;
+    padding: 6px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background-color: transparent;
+    font-size: 19px;
+}
+
+.rodape_tabela {
+    min-height: 52px;
+    gap: 16px;
+    padding: 8px 12px;
+    border-top: 1px solid #e2e6eb;
+    background-color: #ffffff;
+    color: #596676;
+    font-size: 13px;
+}
+
+.paginacao {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.paginacao button,
+.paginacao span {
+    width: 31px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #536274;
+    font-size: 17px;
+}
+
+.paginacao .pagina_atual {
+    background-color: #347db8;
+    color: #ffffff;
+}
+
+.paginacao .paginacao_total {
+    width: auto;
+    color: #748090;
+    font-size: 12px;
+}
+
+.fundo_modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(22, 34, 47, 0.48);
+}
+
+.modal_paciente {
+    width: 660px;
+    padding: 23px 25px 22px;
+    border: 1px solid #e0e5eb;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 24px 80px rgba(13, 26, 40, 0.24);
+}
+
+.modal_cabecalho {
+    align-items: flex-start;
+    gap: 18px;
+    margin-bottom: 21px;
+}
+
+.sobretitulo {
+    display: block;
+    margin-bottom: 4px;
+    color: #347db8;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.modal_cabecalho h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.botao_fechar {
+    border: none;
+    background-color: transparent;
+    color: #667384;
+    font-size: 28px;
+}
+
+.formulario_grade {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.formulario_grade label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.formulario_grade label > span {
+    color: #354152;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.formulario_grade input {
+    width: 100%;
+    height: 42px;
+    padding: 0 11px;
+    border: 1px solid #d4dbe3;
+    border-radius: 6px;
+    outline: none;
+}
+
+.campo_largo {
+    grid-column: span 2;
+}
+
+.modal_acoes {
+    display: flex;
+    justify-content: flex-end;
+    gap: 9px;
+    margin-top: 22px;
+    padding-top: 17px;
+    border-top: 1px solid #edf0f3;
+}

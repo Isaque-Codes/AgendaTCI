@@ -8,13 +8,7 @@ namespace AgendaTCI.Interfaces
 
         Task<Agenda?> BuscarPorIdAsync(Guid id);
 
-        Task<Agenda?> BuscarPorNomeAsync(string nome);
-
-        Task<Agenda?> BuscarPorEmailAsync(string email);
-
-        Task<Agenda?> BuscarPorCPFAsync(string cpf);
-
-        Task<Agenda?> BuscarPorTelefoneAsync(string telefone);
+        Task<List<Agenda?>> BuscarPorNomeAsync(string nome);
 
         Task<bool> EmailExisteAsync(string email);
 

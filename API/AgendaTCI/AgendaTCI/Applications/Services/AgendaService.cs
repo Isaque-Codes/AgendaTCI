@@ -35,56 +35,13 @@ namespace AgendaTCI.Applications.Services
             return ConversaoAgendaDto.ToDto(agenda);
         }
 
-        public async Task<LerAgendaDto> BuscarPorNomeAsync(string nome)
+        public async Task<List<LerAgendaDto>> BuscarPorNomeAsync(string nome)
         {
-            if (string.IsNullOrWhiteSpace(nome))
-                throw new DomainException("Preencha o campo de pesquisa.");
+            List<Agenda> agendas = await _repository.BuscarPorNomeAsync(nome.Trim());
 
-            Agenda? agenda = await _repository.BuscarPorNomeAsync(nome);
-
-            if (agenda == null)
-                throw new DomainException("Paciente não encontrado ou inexistente.");
-
-            return ConversaoAgendaDto.ToDto(agenda);
-        }
-
-        public async Task<LerAgendaDto> BuscarPorEmailAsync(string email)
-        {
-            if (string.IsNullOrWhiteSpace(email))
-                throw new DomainException("Preencha o campo de pesquisa.");
-
-            Agenda? agenda = await _repository.BuscarPorEmailAsync(email);
-
-            if (agenda == null)
-                throw new DomainException("Paciente não encontrado ou inexistente.");
-
-            return ConversaoAgendaDto.ToDto(agenda);
-        }
-
-        public async Task<LerAgendaDto> BuscarPorCPFAsync(string cpf)
-        {
-            if (string.IsNullOrWhiteSpace(cpf))
-                throw new DomainException("Preencha o campo de pesquisa.");
-
-            Agenda? agenda = await _repository.BuscarPorCPFAsync(cpf);
-
-            if (agenda == null)
-                throw new DomainException("Paciente não encontrado ou inexistente.");
-
-            return ConversaoAgendaDto.ToDto(agenda);
-        }
-
-        public async Task<LerAgendaDto> BuscarPorTelefone(string telefone)
-        {
-            if (string.IsNullOrWhiteSpace(telefone))
-                throw new DomainException("Preencha o campo de pesquisa.");
-
-            Agenda? agenda = await _repository.BuscarPorTelefoneAsync(telefone);
-
-            if (agenda == null)
-                throw new DomainException("Paciente não encontrado ou inexistente.");
-
-            return ConversaoAgendaDto.ToDto(agenda);
+            return agendas
+                .Select(ConversaoAgendaDto.ToDto)
+                .ToList();
         }
 
         public async Task CadastrarAsync(CadastrarAgendaDto dto)

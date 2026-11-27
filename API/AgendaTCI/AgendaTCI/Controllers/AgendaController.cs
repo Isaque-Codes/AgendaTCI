@@ -38,54 +38,12 @@ namespace AgendaTCI.Controllers
         }
 
         [HttpGet("buscar/nome")]
-        public async Task<ActionResult<LerAgendaDto>> BuscarPorNome(string nome)
+        public async Task<ActionResult<List<LerAgendaDto>>> BuscarPorNome(string nome)
         {
             try
             {
-                LerAgendaDto agenda = await _service.BuscarPorNomeAsync(nome);
-                return Ok(agenda);
-            }
-            catch (DomainException ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
-
-        [HttpGet("buscar/email")]
-        public async Task<ActionResult<LerAgendaDto>> BuscarPorEmail(string email)
-        {
-            try
-            {
-                LerAgendaDto agenda = await _service.BuscarPorEmailAsync(email);
-                return Ok(agenda);
-            }
-            catch (DomainException ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
-
-        [HttpGet("buscar/cpf")]
-        public async Task<ActionResult<LerAgendaDto>> BuscarPorCPF(string cpf)
-        {
-            try
-            {
-                LerAgendaDto agenda = await _service.BuscarPorCPFAsync(cpf);
-                return Ok(agenda);
-            }
-            catch (DomainException ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
-
-        [HttpGet("buscar/telefone")]
-        public async Task<ActionResult<LerAgendaDto>> BuscarPorTelefone(string telefone)
-        {
-            try
-            {
-                LerAgendaDto agenda = await _service.BuscarPorTelefone(telefone);
-                return Ok(agenda);
+                List<LerAgendaDto> agendas = await _service.BuscarPorNomeAsync(nome);
+                return Ok(agendas);
             }
             catch (DomainException ex)
             {
